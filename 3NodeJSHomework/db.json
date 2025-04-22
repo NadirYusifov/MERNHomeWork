@@ -1,0 +1,34 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "ZenoPhone X12",
+        "brand": "ZenoTech",
+        "price": 849.99
+      },
+      {
+        "id": "2",
+        "name": "NovaEdge Pro 5G",
+        "brand": "NovaMobile",
+        "price": 999
+      },
+      {
+        "id": "3",
+        "name": "Aurum Note Z",
+        "brand": "AurumTech",
+        "price": 729.5
+      },
+      {
+        "id": 4,
+        "name": "Samsung",
+        "brand": "24 Ultra",
+        "price": 1099
+      },
+      {
+        "id": 5,
+        "name": "Samsung",
+        "brand": "24 Ultra",
+        "price": 1099
+      }
+    ]
+  }
