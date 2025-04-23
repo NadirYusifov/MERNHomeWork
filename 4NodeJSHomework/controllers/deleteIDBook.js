@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from "fs";
 
 const deleteIDBook = (req, res) => {
 
-// tyrcatch yazanda 
+// tyrcatch yazanda ifelse işləmir?
 
     try {
         const bookID = req.params.id;
