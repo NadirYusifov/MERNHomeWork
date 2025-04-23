@@ -1,28 +1,23 @@
 import express from 'express';
-import { readFileSync } from "fs";
-import testController from './controllers/test.js';
-import getAllBooks from './controllers/getAllBooks.js';
 import getIDBook from './controllers/getidbook.js';
+import getAllBooks from './controllers/getAllBooks.js';
 import createNewBook from './controllers/createNewBook.js';
+import deleteIDBook from './controllers/deleteIDBook.js';
 
 const app = express();
-const port = 7000;
+const port = 8000;
 
-app.get("/", testController);
+// GET method
 app.get("/books", getAllBooks);
 app.get("/books/:id", getIDBook);
-app.post("/books", createNewBook)
+
+// POST method
+app.post("/books", createNewBook);
+
+// DELETE method
+app.delete("/books/:id", deleteIDBook)
+
 app.use(express.json());
-// app.delete("/books/:id", (req, res) => {
-//     const bookID = req.params.id * 1;
-//     const bookread = readFileSync("./db.json", "utf-8");
-//     const {books} = JSON.parse(bookread);
-//     const index = books.filter(bookid => bookid.id == bookID)
-//     console.log(index);
-    
-//     const bookdelete = books.splice(index, 1);
-//     res.send(bookdelete);
-// })
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
