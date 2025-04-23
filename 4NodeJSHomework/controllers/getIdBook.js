@@ -8,7 +8,8 @@ const getIDBook = (req, res) => {
         const bookfind = books.find((book) => book.id == bookId);
         res.send(bookfind);
 
-        if(!bookfind) {
+        // Burda mən Postmanda URL-ə id yazanda Postmanin aşağısında heç nə vermir.
+        if (!bookfind) {
             res.send({
                 status: 204,
                 message: "Book not found"
