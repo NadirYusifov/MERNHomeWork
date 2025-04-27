@@ -6,6 +6,7 @@ import deleteIDBook from './controllers/deleteIDBook.js';
 
 const app = express();
 const port = 8000;
+app.use(express.json());
 
 // GET method
 app.get("/books", getAllBooks);
@@ -17,7 +18,6 @@ app.post("/books", createNewBook);
 // DELETE method
 app.delete("/books/:id", deleteIDBook)
 
-app.use(express.json());
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

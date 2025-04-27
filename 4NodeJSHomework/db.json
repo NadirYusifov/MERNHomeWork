@@ -2,11 +2,52 @@
   "books": [
     {
       "id": 3,
-      "title": "Sükutun Səsi",
-      "author": "Aygün Həsənova",
-      "year": 2021,
-      "genre": "Ədəbiyyat",
-      "available": true
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Novel",
+      "year": 1866
+    },
+    {
+      "id": 4,
+      "title": "The Bridge",
+      "author": "Franz Kafka",
+      "genre": "Short Story",
+      "year": 1917
+    },
+    {
+      "id": 5,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "genre": "Magical Realism",
+      "year": 1967
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Novel",
+      "year": 1813
+    },
+    {
+      "id": 9,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year": 1949
+    },
+    {
+      "id": 10,
+      "title": "What Men Live By",
+      "author": "Leo Tolstoy",
+      "genre": "Short Story",
+      "year": 1885
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Novel",
+      "year": 1988,
+      "id": "c1202e50-9a89-4241-a318-14092d0701b4"
     }
   ]
 }
