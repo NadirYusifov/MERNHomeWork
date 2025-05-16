@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: cupcake --default, night --night;
+}
+
+.new-add-client {
+ @apply w-full border border-zinc-500 rounded-lg px-4 py-2 outline-0
+}
+
+textarea {
+    @apply w-full border border-zinc-500 rounded-lg px-4 py-2 outline-0
+}
